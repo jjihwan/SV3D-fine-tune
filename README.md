@@ -1,7 +1,7 @@
 # SV3D fine-tuning
 Fine-tuning code for SV3D
 
-<table>
+<table align=center>
   <tr>
     <th style="text-align:center;">Input Image</th>
     <th style="text-align:center;">Before Training</th>
@@ -60,8 +60,9 @@ cd dataset
 ```shell
 sh scripts/sv3d_finetune.sh
 ```
-
-
+<p align=center>
+    <img src="assets/wandb.png" width=500>
+</p>
 ## Inference
 Store the input images in `assets`
 ```shell
