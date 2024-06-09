@@ -57,6 +57,7 @@ cd dataset
 
 
 ## Training
+I used a single A6000 GPU(VRAM 48GB) to fine-tune.
 ```shell
 sh scripts/sv3d_finetune.sh
 ```
