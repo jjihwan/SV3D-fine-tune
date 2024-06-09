@@ -8,9 +8,9 @@ Fine-tuning code for SV3D
     <th style="text-align:center;">After Training</th>
   </tr>
   <tr>
-    <td style="text-align:center;"><img src="assets/fanta.png" alt="input image" width="300"/></td>
-    <td style="text-align:center;"><img src="assets/before.gif" alt="Image 2" width="300"/></td>
-    <td style="text-align:center;"><img src="assets/after.gif" alt="Image 3" width="300"/></td>
+    <td style="text-align:center;"><img src="assets/fanta.png" alt="input image" width="200"/></td>
+    <td style="text-align:center;"><img src="assets/before_loop.gif" alt="Image 2" width="200"/></td>
+    <td style="text-align:center;"><img src="assets/after_loop.gif" alt="Image 3" width="200"/></td>
   </tr>
 </table>
 
