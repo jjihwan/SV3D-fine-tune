@@ -1,0 +1,14 @@
+checkpoints/
+outputs/
+dataset/
+dataset_origin/
+dataset_refined/
+
+logs/
+src
+model_output/
+dataset_fanta/
+notebook
+
+__pycache__/
+*.pyc
