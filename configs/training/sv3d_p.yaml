@@ -155,7 +155,7 @@ model:
 data:
   target: sgm.data.dataset.SV3DDataModuleFromConfig
   params:
-    data_root: dataset_refined/
+    data_root: dataset/
     batch_size: 1
     num_workers: 0
 
