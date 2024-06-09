@@ -63,6 +63,7 @@ sh scripts/sv3d_finetune.sh
 <p align=center>
     <img src="assets/wandb.png" width=500>
 </p>
+
 ## Inference
 Store the input images in `assets`
 ```shell
