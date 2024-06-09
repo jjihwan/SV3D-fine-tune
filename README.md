@@ -1,5 +1,5 @@
-# Novel View Refinement
-
+# SV3D fine-tuning
+Fine-tuning code for SV3D
 
 ## Setting up
 
