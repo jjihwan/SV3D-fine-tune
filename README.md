@@ -29,7 +29,6 @@ pip3 install -r requirements.txt
 pip3 install deepspeed
 ```
 
-
 ## Get checkpoints
 Store them as following structure:
 ```
