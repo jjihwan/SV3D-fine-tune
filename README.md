@@ -69,3 +69,8 @@ Store the input images in `assets`
 ```shell
 sh scripts/inference.sh
 ```
+
+## Datasets
+Use Objaverse 1.0 dataset with preprocessing pipeline.
+
+See [objaverse dataloader](https://github.com/briankwak810/objaverse_dataloader) for detail.
