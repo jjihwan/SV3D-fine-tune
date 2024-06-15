@@ -29,7 +29,7 @@ pip3 install -r requirements.txt
 pip3 install deepspeed
 ```
 
-## Get checkpoints
+## Get checkpoints 💾
 Store them as following structure:
 ```
 cd SV3D-fine-tuning
@@ -38,9 +38,10 @@ cd SV3D-fine-tuning
         └── sv3d_p.safetensors
 ```
 
-## Dataset
+## Dataset 📀
 Prepare dataset as following.
-We use Objaverse dataset.
+We use Objaverse 1.0 dataset with preprocessing pipeline.
+See [objaverse dataloader](https://github.com/briankwak810/objaverse_dataloader) for detail.
 `orbit_frame_0020.png` is input image, and `video_latent.pt` is the video latent encoded by SV3D encoder, without regularization (i.e. channel is 8)
 ```
 cd dataset
@@ -55,7 +56,7 @@ cd dataset
 ```
 
 
-## Training
+## Training 🚀
 I used a single A6000 GPU(VRAM 48GB) to fine-tune.
 ```shell
 sh scripts/sv3d_finetune.sh
@@ -64,13 +65,14 @@ sh scripts/sv3d_finetune.sh
     <img src="assets/wandb.png" width=500>
 </p>
 
-## Inference
+## Inference ❄️
 Store the input images in `assets`
 ```shell
 sh scripts/inference.sh
 ```
 
-## Datasets
-Use Objaverse 1.0 dataset with preprocessing pipeline.
+## Acknowledgement 🤗
+The source code is based on [SV3D](https://github.com/Stability-AI/generative-models).
+Thanks for the wonderful codebase!
 
-See [objaverse dataloader](https://github.com/briankwak810/objaverse_dataloader) for detail.
+Additionally, GPU and NFS resources for training are supported by [far.ai](fal.ai)🔥. 
