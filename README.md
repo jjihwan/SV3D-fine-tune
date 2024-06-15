@@ -75,4 +75,6 @@ sh scripts/inference.sh
 The source code is based on [SV3D](https://github.com/Stability-AI/generative-models).
 Thanks for the wonderful codebase!
 
-Additionally, GPU and NFS resources for training are supported by [far.ai](fal.ai)🔥. 
+Additionally, GPU and NFS resources for training are supported by [fal.ai](fal.ai)🔥.
+
+Feel free to refer to the [fal Research Grants](https://fal.ai/grants)!
