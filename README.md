@@ -71,6 +71,13 @@ Store the input images in `assets`
 sh scripts/inference.sh
 ```
 
+## Notes
+The encoder weights of the vae are **not** provided in sv3d_p.safetensors.  
+To obtain the video latents, you should run the encoder separately and use them in the training pipeline.  
+This is due to save the time and the GPU VRAM for training.  
+Note that you should use the output of the encoder of the vae, not the sample from the distribution defined by the mean and variance of the encoder.  
+In our case, we used AutoencoderKLTemporalDecoder from diffusers.
+
 ## Acknowledgement 🤗
 The source code is based on [SV3D](https://github.com/Stability-AI/generative-models).
 Thanks for the wonderful codebase!
