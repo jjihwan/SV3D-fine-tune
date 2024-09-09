@@ -48,10 +48,10 @@ cd dataset
     .
     └── 000-000
     |   └── orbit_frame_0020.png # input image
-    |   └── video_latent.pt # video latent
+    |   └── orbit_frame.pt # video latent
     └── 000-001
     |   └── orbit_frame_0020.png
-    |   └── video_latent.pt
+    |   └── orbit_frame.pt
     └── ...
 ```
 
